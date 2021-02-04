@@ -1,0 +1,11 @@
+@import "../variables";
+.buttons {
+  &__svg14,
+  &__svg15 {
+    &_black {
+      stroke: none;
+      fill: $colors-light-description-color;
+    }
+    stroke: $colors-light-description-color;
+  }
+}

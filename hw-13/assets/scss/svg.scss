@@ -1,0 +1,36 @@
+@import "variables";
+@import "mixins";
+
+.buttons{
+  &__svg{
+    &_small_size{
+      width: 20px;
+      height: 20px;
+    }
+    stroke: $font-color-white;
+  }
+  &__svg6,
+  &__svg10{
+    &_small_size{
+      width: 20px;
+      height: 20px;
+    }
+    stroke: $colors-dark-light-gray;
+  }
+  &__svg7,
+  &__svg11{
+    &_small_size{
+      width: 20px;
+      height: 20px;
+    }
+    stroke: $colors-light-description-color;
+  }
+  &__svg8,
+  &__svg12{
+    &_small_size{
+      width: 20px;
+      height: 20px;
+    }
+    stroke: $colors-light-accent;
+  }
+}

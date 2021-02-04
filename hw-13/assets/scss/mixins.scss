@@ -1,0 +1,73 @@
+//all mixins
+@mixin border-radius(){
+  border-radius: 5px;
+}
+@mixin font-big(){
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+}
+@mixin font-small(){
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+}
+@mixin padding-big-buttons(){
+  padding: 14px 36px;
+}
+@mixin padding-big-buttons-icon(){
+  padding: 12px 20px;
+}
+@mixin button-centering(){
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+@mixin border-outline-none(){
+  outline: none;
+  border: none;
+}
+@mixin padding-small-size(){
+  padding: 10px 24px;
+}
+@mixin padding-small-size-icon(){
+  padding: 8px 12px;
+}
+
+//tab mixins
+
+@mixin padding-tab(){
+  padding: 12px 16px;
+}
+@mixin padding-tab-big(){
+  padding: 14px 48px;
+}
+@mixin border-radius-0(){
+  border-radius: 0;
+}
+@mixin border-radius-left(){
+  border-radius: 5px 0 0 5px;
+}
+@mixin border-radius-right(){
+  border-radius: 0 5px 5px 0;
+}
+@mixin tab-blue(){
+  border: 1px solid $colors-light-accent;
+  background: $colors-light-accent;
+  color: $font-color-white;
+}
+@mixin tab-outlined(){
+  background: $font-color-white;
+  color: $colors-light-description-color;
+  border: 1px solid $border-color;
+}
+@mixin padding-tab-small(){
+  padding: 6px 12px;
+}
+@mixin padding-tab-small-w(){
+  padding: 9px 24px;
+}

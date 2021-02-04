@@ -1,0 +1,532 @@
+body {
+  margin: 0;
+  max-width: 1306px;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.buttons {
+  display: flex;
+  padding: 44px 0 60px;
+}
+.buttons__item1 {
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-right: 120px;
+}
+.buttons__item2 {
+  width: 350px;
+}
+.buttons__block1, .buttons__block2, .buttons__block3 {
+  display: flex;
+  justify-content: space-between;
+}
+.buttons__element1 {
+  border-radius: 5px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 14px 36px;
+  background: #18A0FB;
+}
+.buttons__element5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 12px 20px;
+  color: #ffffff;
+  background: #18A0FB;
+  border-radius: 5px;
+}
+.buttons__element9 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 12px 20px;
+  color: #ffffff;
+  background: #18A0FB;
+  border-radius: 5px;
+}
+.buttons__element2 {
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 14px 36px;
+  background: rgba(224, 224, 224, 0.3);
+  color: #878787;
+}
+.buttons__element6, .buttons__element10 {
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 12px 20px;
+  background: rgba(224, 224, 224, 0.3);
+  color: #878787;
+}
+.buttons__element3 {
+  border-radius: 5px;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 14px 36px;
+  background: #ffffff;
+  color: #2C2C2C;
+  border: 1px solid #E0E0E0;
+}
+.buttons__element7, .buttons__element11 {
+  border-radius: 5px;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 12px 20px;
+  background: #ffffff;
+  color: #2C2C2C;
+  border: 1px solid #E0E0E0;
+}
+.buttons__element4 {
+  border-radius: 5px;
+  border-radius: 5px;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 14px 36px;
+  background: #ffffff;
+  border: 1px solid #18A0FB;
+  color: #18A0FB;
+}
+.buttons__element8, .buttons__element12 {
+  border-radius: 5px;
+  border-radius: 5px;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 12px 20px;
+  background: #ffffff;
+  border: 1px solid #18A0FB;
+  color: #18A0FB;
+}
+
+.buttons__element1_small_size {
+  padding: 10px 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+}
+.buttons__element5_small_size {
+  padding: 8px 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+}
+.buttons__element9_small_size {
+  padding: 8px 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  background: #FF3E1D;
+}
+.buttons__element2_small_size {
+  padding: 10px 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+}
+.buttons__element6_small_size, .buttons__element10_small_size {
+  padding: 8px 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+}
+.buttons__element3_small_size {
+  padding: 10px 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+}
+.buttons__element4_small_size {
+  padding: 10px 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+}
+.buttons__element8_small_size, .buttons__element12_small_size {
+  padding: 8px 12px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+}
+
+.buttons__svg {
+  stroke: #ffffff;
+}
+.buttons__svg_small_size {
+  width: 20px;
+  height: 20px;
+}
+.buttons__svg6, .buttons__svg10 {
+  stroke: #878787;
+}
+.buttons__svg6_small_size, .buttons__svg10_small_size {
+  width: 20px;
+  height: 20px;
+}
+.buttons__svg7, .buttons__svg11 {
+  stroke: #2C2C2C;
+}
+.buttons__svg7_small_size, .buttons__svg11_small_size {
+  width: 20px;
+  height: 20px;
+}
+.buttons__svg8, .buttons__svg12 {
+  stroke: #18A0FB;
+}
+.buttons__svg8_small_size, .buttons__svg12_small_size {
+  width: 20px;
+  height: 20px;
+}
+
+.buttons {
+  position: relative;
+}
+.buttons__button-group1 {
+  width: 168px;
+  display: flex;
+}
+.buttons__button-group1_small_size {
+  width: 144px;
+}
+.buttons__block4 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.buttons__element13 {
+  padding: 12px 16px;
+  outline: none;
+  border: none;
+  border: 1px solid #18A0FB;
+  background: #18A0FB;
+  color: #ffffff;
+  border-radius: 5px 0 0 5px;
+}
+.buttons__element13_small_size {
+  padding: 6px 12px;
+}
+.buttons__element14 {
+  padding: 12px 16px;
+  outline: none;
+  border: none;
+  background: #ffffff;
+  color: #2C2C2C;
+  border: 1px solid #E0E0E0;
+  border-radius: 0;
+}
+.buttons__element14_small_size {
+  padding: 6px 12px;
+}
+.buttons__element15 {
+  padding: 12px 16px;
+  outline: none;
+  border: none;
+  background: #ffffff;
+  color: #2C2C2C;
+  border: 1px solid #E0E0E0;
+  border-radius: 0 5px 5px 0;
+}
+.buttons__element15_small_size {
+  padding: 6px 12px;
+}
+.buttons__button-group2 {
+  width: 268px;
+  display: flex;
+}
+.buttons__button-group2_small_size {
+  width: 174px;
+}
+.buttons__element16, .buttons__element17 {
+  flex-grow: 1;
+  padding: 14px 48px;
+}
+.buttons__element16_small_size, .buttons__element17_small_size {
+  padding: 9px 24px;
+}
+.buttons__element16 {
+  border: 1px solid #18A0FB;
+  background: #18A0FB;
+  color: #ffffff;
+  border-radius: 5px 0 0 5px;
+}
+.buttons__element17 {
+  border-radius: 0 5px 5px 0;
+  background: #ffffff;
+  color: #2C2C2C;
+  border: 1px solid #E0E0E0;
+}
+.buttons__button-group3 {
+  width: 321px;
+  display: flex;
+}
+.buttons__button-group3_small_size {
+  width: 177px;
+}
+.buttons__element18, .buttons__element19, .buttons__element20 {
+  flex-grow: 1;
+  padding: 14px 48px;
+}
+.buttons__element18_small_size, .buttons__element19_small_size, .buttons__element20_small_size {
+  padding: 9px 24px;
+}
+.buttons__element18 {
+  border: 1px solid #18A0FB;
+  background: #18A0FB;
+  color: #ffffff;
+  border-radius: 5px 0 0 5px;
+}
+.buttons__element19 {
+  border-radius: 0;
+  background: #ffffff;
+  color: #2C2C2C;
+  border: 1px solid #E0E0E0;
+}
+.buttons__element20 {
+  border-radius: 0 5px 5px 0;
+  background: #ffffff;
+  color: #2C2C2C;
+  border: 1px solid #E0E0E0;
+}
+.buttons__element21 {
+  outline: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 90%;
+  top: 14%;
+  background: #FF3E1D;
+  border-radius: 100px;
+}
+.buttons__element22 {
+  outline: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 95%;
+  top: 14%;
+  /* Colors / Light / Success */
+  background: #00D200;
+  border-radius: 29px;
+}
+.buttons__element23 {
+  outline: none;
+  border: none;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  padding: 6px 10px;
+  position: absolute;
+  width: 65px;
+  height: 28px;
+  left: 61px;
+  top: 90%;
+  background: #ffffff;
+  border: 1px solid #E0E0E0;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.buttons__element24 {
+  outline: none;
+  border: none;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  padding: 6px 10px;
+  position: absolute;
+  color: #ffffff;
+  width: 65px;
+  height: 28px;
+  left: 138px;
+  top: 90%;
+  background: #18A0FB;
+  border-radius: 5px;
+}
+.buttons__element25 {
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 6px 14px;
+  position: absolute;
+  width: 51px;
+  height: 28px;
+  left: 62px;
+  top: 105%;
+  /* Colors / Disabled */
+  background: rgba(224, 224, 224, 0.3);
+  /* Colors / Light / Light Gray */
+  border: 1px solid #E0E0E0;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.buttons__element26 {
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 6px 14px;
+  color: #ffffff;
+  position: absolute;
+  width: 51px;
+  height: 28px;
+  left: 138px;
+  top: 105%;
+  background: #18A0FB;
+  border-radius: 5px;
+}
+
+.buttons__svg13 {
+  fill: #ffffff;
+}
+.buttons__svg23 {
+  fill: #2C2C2C;
+}
+.buttons__svg24 {
+  fill: #ffffff;
+}
+
+.buttons__svg14, .buttons__svg15 {
+  stroke: #2C2C2C;
+}
+.buttons__svg14_black, .buttons__svg15_black {
+  stroke: none;
+  fill: #2C2C2C;
+}
+
+.small-buttons {
+  display: flex;
+}
+.small-buttons__item1 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-right: 120px;
+}
+.small-buttons__block1 {
+  display: flex;
+  gap: 20px;
+}
+.small-buttons__block2 {
+  display: flex;
+  gap: 20px;
+}
+.small-buttons__block3 {
+  display: flex;
+  gap: 20px;
+}
+.small-buttons__block4 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/*# sourceMappingURL=index.css.map */

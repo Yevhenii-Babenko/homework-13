@@ -1,0 +1,14 @@
+@import "variables";
+
+.buttons {
+  &__svg13 {
+    fill: $font-color-white;
+  }
+  &__svg23 {
+    fill: #2C2C2C;
+  }
+  &__svg24 {
+    fill: $font-color-white;
+  }
+}
+@import "modificators/buttons__svg_black";

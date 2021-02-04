@@ -1,0 +1,209 @@
+@import "variables";
+@import "mixins";
+
+.buttons{
+  position: relative;
+  &__button-group1{
+    &_small_size{
+      width: 144px;
+    }
+    //@include border-radius();
+    //border-radius: 5px;
+    width: 168px;
+    display: flex;
+  }
+  &__block4{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  &__element13{
+    &_small_size{
+      @include padding-tab-small();
+    }
+    @include padding-tab();
+    @include border-outline-none();
+    @include tab-blue();
+    @include border-radius-left();
+
+  }
+  &__element14{
+    &_small_size{
+      @include padding-tab-small();
+    }
+    @include padding-tab();
+    @include border-outline-none();
+    @include tab-outlined();
+    @include border-radius-0();
+  }
+  &__element15{
+    &_small_size{
+      @include padding-tab-small();
+    }
+    @include padding-tab();
+    @include border-outline-none();
+    @include tab-outlined();
+    @include border-radius-right();
+  }
+  //&__svg13 {
+  //  fill: $font-color-white;
+  //}
+  //&__svg14,
+  //&__svg15{
+  //  &_black{
+  //    stroke: none;
+  //    fill: $colors-light-description-color;
+  //  }
+  //  stroke: $colors-light-description-color;
+  //}
+  &__button-group2{
+    &_small_size{
+      width: 174px;
+    }
+    width: 268px;
+    display: flex;
+  }
+  &__element16,
+  &__element17{
+    &_small_size{
+      @include padding-tab-small-w();
+    }
+    flex-grow: 1;
+    @include padding-tab-big();
+  }
+  &__element16{
+    @include tab-blue();
+    @include border-radius-left();
+  }
+  &__element17{
+    @include border-radius-right();
+    @include tab-outlined();
+  }
+  &__button-group3{
+    &_small_size{
+      width: 177px;
+    }
+    width: 321px;
+    display: flex;
+  }
+  &__element18,
+  &__element19,
+  &__element20{
+    &_small_size{
+      @include padding-tab-small-w();
+    }
+    flex-grow: 1;
+    @include padding-tab-big();
+  }
+  &__element18{
+    @include tab-blue();
+    @include border-radius-left();
+  }
+  &__element19{
+    @include border-radius-0();
+    @include tab-outlined();
+  }
+  &__element20{
+    @include border-radius-right();
+    @include tab-outlined();
+  }
+  &__element21{
+    @include border-outline-none();
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 90%;
+    top: 14%;
+    background: $colors-light-error;
+    border-radius: 100px;
+  }
+  &__element22{
+    @include border-outline-none();
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 95%;
+    top: 14%;
+    /* Colors / Light / Success */
+    background: $colors-light-success;
+    border-radius: 29px;
+  }
+  &__element23{
+    @include border-outline-none();
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    padding: 6px 10px;
+    position: absolute;
+    width: 65px;
+    height: 28px;
+    left: 61px;
+    top: 90%;
+    background: $font-color-white;
+    border: 1px solid $border-color;
+    box-sizing: border-box;
+    @include border-radius();
+  }
+  //&__svg23{
+  //  fill: #2C2C2C;
+  //}
+  &__element24{
+    @include border-outline-none();
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    padding: 6px 10px;
+    position: absolute;
+    color: $font-color-white;
+    width: 65px;
+    height: 28px;
+    left: 138px;
+    top: 90%;
+    background: $colors-light-accent;
+    @include border-radius();
+  }
+  //&__svg24{
+  //  fill: $font-color-white;
+  //}
+  &__element25{
+    @include border-outline-none();
+    display: flex;
+    align-items: center;
+    padding: 6px 14px;
+    position: absolute;
+    width: 51px;
+    height: 28px;
+    left: 62px;
+    top: 105%;
+    /* Colors / Disabled */
+    background: rgba(224, 224, 224, 0.3);
+    /* Colors / Light / Light Gray */
+    border: 1px solid $border-color;
+    box-sizing: border-box;
+    //border-radius: 5px;
+    @include border-radius();
+  }
+  &__element26{
+    @include border-outline-none();
+    display: flex;
+    align-items: center;
+    padding: 6px 14px;
+    color: $font-color-white;
+    position: absolute;
+    width: 51px;
+    height: 28px;
+    left: 138px;
+    top: 105%;
+    background: $colors-light-accent;
+    @include border-radius();
+  }
+}
+@import "svg-tabs";

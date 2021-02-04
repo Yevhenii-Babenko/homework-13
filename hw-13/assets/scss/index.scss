@@ -1,0 +1,156 @@
+@import "variables";
+@import "mixins";
+
+body{
+  margin: 0;
+  max-width: 1306px;
+  font-family: 'Inter', sans-serif;
+}
+.container{
+  margin: 0 auto;
+  max-width: 1100px;
+}
+.buttons{
+  display: flex;
+  padding: 44px 0 60px;
+  &__item1{
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-right: 120px;
+  }
+  &__item2{
+    width: 350px;
+  }
+  &__block1,
+  &__block2,
+  &__block3{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__element1{
+    @include border-radius();
+    color: $font-color-white;
+    @include font-big();
+    @include border-outline-none();
+    @include button-centering();
+    @include padding-big-buttons();
+    background: $colors-light-accent;
+  }
+  &__element5{
+    @include font-big();
+    @include border-outline-none();
+    @include button-centering();
+    @include padding-big-buttons-icon();
+    color: $font-color-white;
+    background: $colors-light-accent;
+    @include border-radius();
+  }
+  &__element9{
+    @include font-big();
+    @include border-outline-none();
+    @include button-centering();
+    @include padding-big-buttons-icon();
+    color: $font-color-white;
+    background: $colors-light-accent;
+    @include border-radius();
+  }
+  &__element2{
+    @include border-radius();
+    @include font-big();
+    @include border-outline-none();
+    @include button-centering();
+    @include padding-big-buttons();
+    background: rgba(224, 224, 224, 0.3);
+    color: $colors-dark-light-gray;
+  }
+  &__element6,
+  &__element10{
+    @include border-radius();
+    @include font-big();
+    @include border-outline-none();
+    @include button-centering();
+    @include padding-big-buttons-icon();
+    background: rgba(224, 224, 224, 0.3);
+    color: $colors-dark-light-gray;
+  }
+  &__element3{
+    @include border-radius();
+    @include border-radius();
+    @include font-big();
+    @include border-outline-none();
+    @include button-centering();
+    @include padding-big-buttons();
+    background: $font-color-white;
+    color: $colors-light-description-color;
+    border: 1px solid $border-color;
+  }
+  &__element7,
+  &__element11{
+    @include border-radius();
+    @include border-radius();
+    @include font-big();
+    @include border-outline-none();
+    @include button-centering();
+    @include padding-big-buttons-icon();
+    background: $font-color-white;
+    color: $colors-light-description-color;
+    border: 1px solid $border-color;
+  }
+  &__element4{
+    @include border-radius();
+    @include border-radius();
+    @include border-radius();
+    @include font-big();
+    @include border-outline-none();
+    @include button-centering();
+    @include padding-big-buttons();
+    background: $font-color-white;
+    border: 1px solid $colors-light-accent;
+    color: $colors-light-accent;
+  }
+  &__element8,
+  &__element12{
+    @include border-radius();
+    @include border-radius();
+    @include border-radius();
+    @include font-big();
+    @include border-outline-none();
+    @include button-centering();
+    @include padding-big-buttons-icon();
+    background: $font-color-white;
+    border: 1px solid $colors-light-accent;
+    color: $colors-light-accent;
+  }
+}
+@import "modificators/buttons__elemetns_small_size";
+@import "svg";
+@import "tab-style";
+
+.small-buttons{
+  display: flex;
+  &__item1{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-right: 120px;
+  }
+  &__block1{
+    display: flex;
+    gap: 20px;
+  }
+  &__block2{
+    display: flex;
+    gap: 20px;
+  }
+  &__block3{
+    display: flex;
+    gap: 20px;
+  }
+  &__block4{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+}
