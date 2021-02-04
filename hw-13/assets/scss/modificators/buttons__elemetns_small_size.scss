@@ -1,0 +1,56 @@
+@import "../mixins";
+@import "../variables";
+
+.buttons{
+  &__element1{
+    &_small_size{
+      @include padding-small-size();
+      @include  font-small();
+    }
+  }
+  &__element5{
+    &_small_size{
+      @include padding-small-size-icon();
+      @include  font-small();
+    }
+  }
+  &__element9{
+    &_small_size{
+      @include padding-small-size-icon();
+      @include  font-small();
+      background: $colors-light-error;
+    }
+  }
+  &__element2{
+    &_small_size{
+      @include padding-small-size();
+      @include  font-small();
+    }
+  }
+  &__element6,
+  &__element10{
+    &_small_size{
+      @include padding-small-size-icon();
+      @include  font-small();
+    }
+  }
+  &__element3{
+    &_small_size{
+      @include padding-small-size();
+      @include  font-small();
+    }
+  }
+  &__element4{
+    &_small_size{
+      @include padding-small-size();
+      @include  font-small();
+    }
+  }
+  &__element8,
+  &__element12{
+    &_small_size{
+      @include padding-small-size-icon();
+      @include  font-small();
+    }
+  }
+}

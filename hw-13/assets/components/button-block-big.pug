@@ -1,0 +1,18 @@
+include button-big-size/button
+include button-big-size/button-group
+include button-big-size/button-download
+include button-big-size/download-button
+
+mixin button-block()
+
+    div.buttons
+        div.buttons__item1
+            div.buttons__block1
+                +button()
+            div.buttons__block2
+                +button-download()
+            div.buttons__block3
+                +download-button()
+        div.buttons__item2
+            div.buttons__block4
+                +button-group()
